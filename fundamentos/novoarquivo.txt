@@ -1,0 +1,11 @@
+./arquivo.txt
+./bunch_of_things_ordered.txt
+./bunch_of_things.txt
+./countries.txt
+./fortune.txt
+./nomes.txt
+./novoarquivo.txt
+./phrases2.txt
+./phrases.txt
+./skills2.txt
+./top_skills.txt
