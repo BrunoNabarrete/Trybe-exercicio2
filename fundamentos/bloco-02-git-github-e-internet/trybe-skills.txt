@@ -1,6 +1,8 @@
 Unix
 Bash
 Git
-bruno teste 2.2
+Node.js
+Internet
 HTML
 CSS
+main
