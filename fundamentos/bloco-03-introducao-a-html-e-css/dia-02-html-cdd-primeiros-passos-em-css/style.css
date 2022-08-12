@@ -1,0 +1,45 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+ul {
+    background-color: aqua;
+}
+
+.numero4 {
+    background-color: ;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+body {
+    font-size: 16px;
+    line-height: 2;
+    background-color: black;
+    color: white;
+
+}
+
+#amarelo {
+    background-color: yellow;
+    font-style: italic;
+    text-decoration: underline;
+    color: black;
+}
+
+#vermelho {
+    background-color: red;
+    text-decoration: underline;
+    color: black;
+}
+
+#marrom {
+    background-color: brown;
+    text-decoration: underline;
+    color: black;
+}
