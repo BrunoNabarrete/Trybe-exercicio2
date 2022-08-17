@@ -11,25 +11,51 @@ header{
     color: white;
 }
 
+#menu{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+
 #menu li{
     display: inline-block;
     width: 32%;
-
+    margin-left: 10px;
     text-decoration: none;
 }
 
-.scroll-inter{
-    text-decoration: underline;
+.link{
+    text-decoration: none;
+    color: white;
 }
 
-.main p{
-    display: inline-block;
-  
-}
-
-
-
-
-*{
+img{
+    float: left;
+    margin-left: 400px;
     
+}
+
+#about-stomatopoda{
+    text-align: center;
+}
+
+.conteudo{
+    text-align: center;
+}
+
+.first{
+    margin-top: 15px;
+}
+
+.second{
+    margin-top: 25px;
+}
+
+#curiosidade{
+    margin-top: 40px;
+}
+
+#bibliografia{
+    margin-top: 50px;
 }
