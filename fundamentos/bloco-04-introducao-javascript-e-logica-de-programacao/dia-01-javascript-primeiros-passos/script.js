@@ -53,3 +53,22 @@ if (lado1 <= 0 || lado2 <= 0 || lado3 <= 0) {
 } else if (lado1 + lado2 + lado3 == 180) {
     console.log(true);
 }
+
+// exercício 6;
+
+
+
+// exercício 7;
+
+
+// exercício 8;
+
+const primeira = 3;
+const segunda = 4;
+const terceira = 6;
+
+if (primeira % 2 != 0 || segunda % 2 != 0 || terceira % 2 != 0) {
+    console.log(true);
+} else {
+    console.log(false)
+}
