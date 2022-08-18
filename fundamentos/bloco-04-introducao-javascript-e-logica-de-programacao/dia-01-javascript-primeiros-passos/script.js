@@ -103,3 +103,23 @@ if (first % 2 != 0 || second % 2 != 0 || thirt % 2 != 0) {
 } else {
     console.log(false)
 }
+
+// exercício 10;
+
+let valorVenda = 400;
+let valorCusto = 150;
+let unidadeVendida = 1000;
+let lucro;
+let custoTotal;
+let valorVendaTotal;
+
+custoTotal = (valorCusto * unidadeVendida) * 1.2;
+valorVendaTotal = valorVenda * unidadeVendida;
+
+if (valorVenda == 0 || valorCusto == 0 || unidadeVendida == 0) {
+    console.log('Valores imputados errado!')
+} else if ( custoTotal > 0 ) {
+    lucro = valorVendaTotal - custoTotal;
+}
+
+console.log(lucro)
