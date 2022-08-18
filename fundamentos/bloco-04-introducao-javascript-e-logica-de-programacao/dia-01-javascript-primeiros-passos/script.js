@@ -42,14 +42,14 @@ if (a > 0 ) {
 
 // exercicio 5;
 
-let lado1 = 10;
+let lado1 = 70;
 let lado2 = 100;
 let lado3 = 10;
 
 if (lado1 <= 0 || lado2 <= 0 || lado3 <= 0) {
     console.log("angulo errado");
-} else if(lado1 + lado2 + lado3 > 180 || lado1 + lado2 + lado3 < 0) {
+} else if(lado1 + lado2 + lado3 !== 180) {
     console.log(false);
-} else if (lado1 + lado2 + lado3 <= 180) {
+} else if (lado1 + lado2 + lado3 == 180) {
     console.log(true);
 }
