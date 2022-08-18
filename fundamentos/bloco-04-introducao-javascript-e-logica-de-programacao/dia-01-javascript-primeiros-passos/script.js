@@ -86,7 +86,19 @@ const primeira = 3;
 const segunda = 4;
 const terceira = 6;
 
-if (primeira % 2 != 0 || segunda % 2 != 0 || terceira % 2 != 0) {
+if (primeira % 2 == 0 || segunda % 2 == 0 || terceira % 2 == 0) {
+    console.log(true);
+} else {
+    console.log(false)
+}
+
+// exercício 9;
+
+const first = 2;
+const second = 4;
+const thirt = 7;
+
+if (first % 2 != 0 || second % 2 != 0 || thirt % 2 != 0) {
     console.log(true);
 } else {
     console.log(false)
