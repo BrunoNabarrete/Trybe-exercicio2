@@ -1,4 +1,4 @@
-const a = 250;
+const a = -100;
 const b = 350;
 const c = 450;
 
@@ -31,3 +31,11 @@ if (a > b && a > c) {
 }
 
 // exercicio 4
+
+if (a > 0 ) {
+    console.log('positive')
+} else if (a <= 0 ) {
+    console.log('negative')
+} else {
+    console.log('0')
+}
