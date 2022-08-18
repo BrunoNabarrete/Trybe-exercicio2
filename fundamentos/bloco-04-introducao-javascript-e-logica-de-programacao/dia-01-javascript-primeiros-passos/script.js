@@ -60,24 +60,25 @@ if (lado1 <= 0 || lado2 <= 0 || lado3 <= 0) {
 
 // exercício 7;
 
-let nota;
-let resultado;
+let nota = 110;
+let result;
 
-if (nota >= 90){
-    resultado = 'A';
-} else if (nota >= 80 nota <90 ){
-    resultado = 'B';
-} else if (nota >= 70 nota <80) {
-    resultado = 'C';
-} else if (nota >=60 nota <70) {
-    resultado = 'D';
-} else if (nota >=50 nota <60) {
-    resultado = 'E';
+if (nota >= 90 && nota <= 100){
+    result = 'A';
+} else if (nota >= 80 && nota <90 ){
+    result = 'B';
+} else if (nota >= 70 && nota <80) {
+    result = 'C';
+} else if (nota >=60 && nota <70) {
+    result = 'D';
+} else if (nota >=50 && nota <60) {
+    result = 'E';
 } else if (nota < 50) {
-    resultado = 'F';
+    result = 'F';
 } else if (nota < 0 || nota > 100)
-    resultado = 'Erros na nota';
+    result = 'Erros na nota';
 
+console.log(result);
 
 // exercício 8;
 
