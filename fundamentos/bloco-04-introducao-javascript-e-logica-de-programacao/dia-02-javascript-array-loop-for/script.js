@@ -63,3 +63,33 @@ while (d1 === d2) {
 for(let index = 0; index <= 20; index+=1 ){
     console.log(index);
 }
+
+
+
+// exercícios do dia 4.2
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// exercício 1
+
+//console.log(numbers[0]);
+//console.log(numbers[1]);
+//console.log(numbers[2]);
+//console.log(numbers[3]);
+//console.log(numbers[4]);
+//console.log(numbers[5]);
+//console.log(numbers[6]);
+//console.log(numbers[7]);
+//console.log(numbers[8]);
+//console.log(numbers[9]);
+
+// exercício 2
+
+let sum = 0;
+
+for (let index = 0; index < numbers.length; index +=1) {
+    sum = sum + numbers[index];
+}
+
+console.log(sum);
+
