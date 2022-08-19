@@ -60,7 +60,7 @@ if (lado1 <= 0 || lado2 <= 0 || lado3 <= 0) {
 
 // exercício 7;
 
-let nota = 110;
+let nota = 150;
 let result;
 
 if (nota >= 90 && nota <= 100){
@@ -122,4 +122,30 @@ if (valorVenda == 0 || valorCusto == 0 || unidadeVendida == 0) {
     lucro = valorVendaTotal - custoTotal;
 }
 
-console.log(lucro)
+console.log(lucro);
+
+// exercício 11;
+
+let salario = 3800;
+
+if (salario <= 1556.94) {
+    salario = salario * 0.92;
+} else if ( salario > 1556.94 && salario <= 2594.92) {
+    salario = salario * 0.91;
+} else if (salario > 2594 && salario <= 5189,82) {
+    salario = salario * 0.89;
+} else if (salario > 5189.82) {
+    salario = salario - 570,88;
+}
+
+if (salario > 1903.99 && salario <= 2826.65) {
+    salario = (salario * 0.925) + 142.80;
+} else if (salario > 2826.65 && salario <= 3751.05) {
+    salario = (salario * 0.85) + 354.80;
+} else if (salario > 3751.05 && salario <= 4664.68) {
+    salario = (salario * 0.775) + 636.13;
+} else if (salario > 4664.68) {
+    salario = (salario * 0.725) + 869.36;
+}
+
+console.log(salario)
