@@ -1,0 +1,52 @@
+h1,h2,h3, h4, h5, h6 {
+    color: red;
+}
+
+h1 em {
+    width: 40px;
+}
+
+.par{
+    color: green;
+}
+
+.impar{
+    text-transform: uppercase;
+}
+
+li{
+    width: 20px;
+}
+
+li em{
+    font-weight: 400;
+}
+
+.fonte-azul{
+    color: blue;
+}
+
+::content java* {
+    background-color: pink;
+}
+
+.stack:hover{
+    background-color: orange;
+}
+
+.w3:hover{
+    background-color: green;
+}
+
+.mozilla:hover{
+    background-color: black;
+}
+
+.trybe:hover{
+    background-color: green;
+}
+.dev:hover{
+    background-color: yellow;
+}
+
+
