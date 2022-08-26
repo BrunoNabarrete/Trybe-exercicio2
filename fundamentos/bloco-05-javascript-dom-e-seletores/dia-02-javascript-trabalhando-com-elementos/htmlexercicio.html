@@ -66,12 +66,24 @@
     childOne.innerText = 'Exercício 5.2 - Javacript DOM';
     
     document.body.appendChild(childOne);
-    // 2.  Adicione a tag main com a classe main-content como filho da tag body;
+    // 2.🚀  Adicione a tag main com a classe main-content como filho da tag body;
 
     let tagMain = document.createElement('main');
     tagMain.className = 'main-content';
     document.body.appendChild(tagMain);
+
+    // 3.🚀 Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
     
+    let tagSection = document.createElement('section');
+    tagSection.className = 'center-content';
+    tagMain.appendChild(tagSection);
+
+    //4 .🚀 Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+
+    let tagP = document.createElement('p');
+    tagP.innerText = 'não estou criativo para criar texto hoje';
+    tagSection.appendChild(tagP);
+
     
     </script>
 </body>
