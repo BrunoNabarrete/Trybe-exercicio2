@@ -44,4 +44,9 @@ for (let index = 0; index < decemberDaysList.length; index += 1){
     }
 }
 
+let button = document.querySelector('.buttons-container');
 
+function buttonCreate (buttonName) {
+    let newButton = document.createElement('button')
+
+}
