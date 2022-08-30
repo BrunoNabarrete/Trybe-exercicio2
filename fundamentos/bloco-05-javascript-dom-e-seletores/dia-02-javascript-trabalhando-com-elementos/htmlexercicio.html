@@ -105,17 +105,58 @@
 
     //8.🚀 Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
 
-    let lista = document.createElement('ul');
-    tagSection3.appendChild(lista);
-    
+    const elementUl = document.createElement('ul');
+    tagSection3.appendChild(elementUl);
+
     const arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
         'Sete', 'Oito', 'Nove', 'Dez']
-
-    for (let index = 0; index < arrayNumbers; index +=1){
-        let elementLi = document.createElement('li');
-        elementLi.innerText = arrayNumbers[index];
-        lista.appendChild(elementLi);
+    for (let num in arrayNumbers) {
+        const elementLi = document.createElement('li');
+        elementLi.innerText = arrayNumbers[num];
+        elementLi.className = 'remover'
+        elementUl.appendChild(elementLi);
     }
+
+    //9. 🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+
+    for (let index = 0; index < 3; index +=1){
+        let tagH3 = document.createElement('h3');
+        tagH3.innerText = index;
+        tagMain.appendChild(tagH3);
+        }
+    
+       //exercicio 🚀 1 Adicione a classe title na tag h1 criada;
+        childOne.className = 'title';
+
+        //exercicio 🚀 2 Adicione a classe description nas 3 tags h3 criadas;
+        let elementsH3 = document.getElementsByTagName('h3');
+        for (let index = 0; index < 3; index +=1){
+            elementsH3[index].className = 'description';
+        }
+
+        //exercicio 🚀 3 Remova a section criado no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
+        let removeOne = document.getElementsByClassName('left-content')[0];
+
+        tagMain.removeChild(removeOne);
+
+        //exercicio 🚀 4 Centralize a section criado no passo 6 (aquele que possui a classe right-content). Dica: para centralizar, basta configurar o margin-right: auto da section;
+        let centerEdit = document.querySelector('.right-content');
+
+        centerEdit.style.marginRight = 'auto';
+
+        //exercicio 🚀 5 Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content) para a cor verde;
+
+        let backColorEdit = document.querySelector('.center-content');
+
+        backColorEdit.style.backgroundColor = 'green';
+
+        //exercicio 🚀 Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
+
+        let ul = document.getElementsByTagName('ul')[0];
+        ul.lastChild.remove();
+        ul.lastChild.remove();
+        
+
 
     </script>
 </body>
