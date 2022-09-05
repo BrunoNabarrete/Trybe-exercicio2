@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio dia 6.1</title>
+</head>
+<body>
+    <h1>Header da Página</h1>
+    <fieldset>
+        <br>
+        <label for="name-completo"> Nome:
+            <input type="text" name="name" minlength="10" maxlength="40" id="name-completo">
+        </label>
+        <br>
+        <label for="email">Email
+            <input type="email" name="email" minlength="10" maxlength="50" id="email">
+        </label>
+        <br>
+        <label for="opção-viagem1">Buenos Aires
+            <input type="radio" id="opção-viagem1">
+        </label>
+        <label for="opção-viagem2">Itamonte
+            <input type="radio" id="opção-viagem2">
+        </label>
+        <label for="opção-viagem3">Cancun
+            <input type="radio" id="opção-viagem3">
+        </label>
+        <label for="opção-viagem4">Peru
+            <input type="radio" id="opção-viagem4">
+        </label>
+        </label>
+        <br>
+        <label for="texto-trybe"> Porque você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+            <br>
+            <textarea name="resposta-trybe" id="texto-trybe" cols="30" rows="10" maxlength="500"></textarea>
+        </label>
+        <br>
+        <label for="">Data:
+            <input type="data" placeholder="dd/mm/aa">
+        </label>
+        <br>
+        <label for="radio-opção1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+            <input type="checkbox" id="radio-opção1">
+        </label>
+        <br>
+        <label for="radio-opção2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+            <input type="checkbox" id="radio-opção2">
+        </label>
+    </fieldset>
+    <button id="submit" type="submit">Enviar</button>
+    <button id="reset" type="button" value="reset">Apagar</button>
+
+    <script src="script2.js"></script>
+</body>
+</html>
