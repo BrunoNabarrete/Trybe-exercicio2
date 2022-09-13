@@ -63,9 +63,9 @@ body {
 
 .movie-container {
     display: flex;
-    flex-basis: 700px;
     flex-direction: column;
-    flex-grow: 10;
+    flex-basis: 700px;
+    width: 60%;
 }
 
 .movie-container h2 {
@@ -84,20 +84,21 @@ body {
     background-color: #5C687C;
     border: black solid 1px;
     display: flex;
-    flex-basis: 16%;
-    flex-grow: 1;
     height: 150px;
     justify-content: center;
     margin: 10px;
+    flex-basis: 16%;
 }
 
 .aside-container {
-    align-self: center;
+    
     display: flex;
-    flex-basis: 350px;
     flex-direction: column;
+    /* margin: 20px; */
+    flex-basis: 350px;
     flex-grow: 1;
-    margin: 20px;
+    width: 30%;
+
 }
 
 .aside-container h3, h4 {
