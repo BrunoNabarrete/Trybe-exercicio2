@@ -34,4 +34,19 @@ export default class BookModel {
     const [book] = rows as Book[];
     return book;
   }
+
+  async update(id: number, book: Book) {
+    const { title, price, author, isbn} = book;
+    await this.connection.execute(
+        'UPDATE books SET title=?, price=?, aithor=?, isbn=? WHERE id=?',
+        [title, price, author, isbn, id],
+    );
+  }
+
+  async remove(id: number) {
+    await this.connection.execute(
+        'DELETE FROM books WHERE id=?',
+        [id],
+    );
+  }
 }
