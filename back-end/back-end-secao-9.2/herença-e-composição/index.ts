@@ -1,29 +1,15 @@
-class Superclass {
-    isSuper: boolean;
+// Para testar!
+// ./index.ts
 
-    constructor() {
-        this.isSuper = true;
-    }
+import Subject from './Subject';
 
-    public sayHello() {
-        console.log('Olá, mundo!')
-    }
-}
+const math = new Subject('Ma');
+const story = new Subject('História');
+const philosophy = new Subject('Filosofia');
 
-class Subclass extends Superclass {
-    constructor() {
-        super();
-        this.isSuper = false;
-    }
-}
+console.log(math);
+console.log(story);
+console.log(philosophy);
 
-const myFunc = (object: Superclass) => {
-    object.sayHello();
-    console.log(object.isSuper ? 'Super' : 'Sub')
-}
-
-const sup = new Superclass();
-const sub = new Subclass();
-
-myFunc(sub);
-// myFunc(sup);
+// deve retornar erro
+// const invalidSubjectName = new Subject('Po');
