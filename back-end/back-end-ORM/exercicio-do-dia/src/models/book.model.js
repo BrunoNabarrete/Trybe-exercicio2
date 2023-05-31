@@ -6,6 +6,8 @@ const BookModel = (sequelize, DataTypes) => {
         createdAt: DataTypes.DATE,
         updateAt: DataTypes.DATE
     })
+
+    return Book;
 }
 
 module.export = {
