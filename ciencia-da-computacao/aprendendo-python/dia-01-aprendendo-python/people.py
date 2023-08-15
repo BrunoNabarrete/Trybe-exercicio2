@@ -14,16 +14,3 @@ if verify:
     print("Sim")
 else:
     print("Não")
-
-
-#o que é REPL?
-#Read Eval Print Loop
-#é um ambiente de programação interativo que recebe um comando, o executa e retorna o resultado.
-#é um ambiente de programação interativo que recebe um comando, o executa e retorna o resultado.
-# tipos de dados nativos em python?
-#int, float, bool, str, list, tuple, dict, set, frozenset, bytes, bytearray, range, complex, NoneType
-
-#Em Python, o que os tipos de dados list, set, dict e tuple tem em comum?
-#são tipos de dados iteráveis
-
-
