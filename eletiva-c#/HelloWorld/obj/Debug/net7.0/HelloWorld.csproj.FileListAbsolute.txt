@@ -1,0 +1,15 @@
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/bin/Debug/net7.0/HelloWorld
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/bin/Debug/net7.0/HelloWorld.deps.json
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/bin/Debug/net7.0/HelloWorld.runtimeconfig.json
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/bin/Debug/net7.0/HelloWorld.dll
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/bin/Debug/net7.0/HelloWorld.pdb
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/obj/Debug/net7.0/HelloWorld.csproj.AssemblyReference.cache
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/obj/Debug/net7.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/obj/Debug/net7.0/HelloWorld.AssemblyInfoInputs.cache
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/obj/Debug/net7.0/HelloWorld.AssemblyInfo.cs
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/obj/Debug/net7.0/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/obj/Debug/net7.0/HelloWorld.dll
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/obj/Debug/net7.0/refint/HelloWorld.dll
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/obj/Debug/net7.0/HelloWorld.pdb
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/obj/Debug/net7.0/HelloWorld.genruntimeconfig.cache
+/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/HelloWorld/obj/Debug/net7.0/ref/HelloWorld.dll

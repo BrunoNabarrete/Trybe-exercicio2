@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "6zRjB2nIH5SJf0E2sT3h5q5PWfylZBgVC3GIYiTpLTQmzcsQWPifAhKVXrEIcw1lSZka4r02PiftHD64CZ3nDA==",
+  "success": true,
+  "projectFilePath": "/Users/brunonabarrete/Documents/Trybe/Exercicios/trybe-exercicio/eletiva-c#/novoMVC/novoMVC.csproj",
+  "expectedPackageFiles": [
+    "/Users/brunonabarrete/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
+    "/Users/brunonabarrete/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/brunonabarrete/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/brunonabarrete/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/brunonabarrete/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/brunonabarrete/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/brunonabarrete/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
